@@ -2,6 +2,10 @@ name = "profile-picture-telegram-bot"
 main = "src/index.js"
 compatibility_date = "2024-02-01"
 
-# Bindings to secrets (to be set in Cloudflare dashboard or via wrangler secret put)
-# [vars]
-# TELEGRAM_BOT_TOKEN = "example_token"
+# Environment Variables
+# Set secrets using wrangler CLI:
+#   npx wrangler secret put GAS_WEB_APP_URL
+#   npx wrangler secret put TELEGRAM_BOT_TOKEN (optional, for future use)
+#
+# GAS_WEB_APP_URL: URL of your deployed Google Apps Script Web App
+# TELEGRAM_BOT_TOKEN: Your Telegram Bot Token (currently not used in worker, but kept for reference)
