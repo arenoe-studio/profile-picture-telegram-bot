@@ -1,0 +1,19 @@
+{
+  "name": "profile-picture-telegram-bot",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker for Telegram Bot Webhook",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hono": "^4.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
